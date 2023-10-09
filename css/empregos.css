@@ -1,0 +1,122 @@
+body{
+    background-color: #1f252f;
+} 
+.navbar{
+    padding: 0;
+}
+.container-fluid{
+    background-color: #5e1dad;
+    padding: 0 30px;
+    box-shadow: 002px -2px 13px 4px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 002px -2px 13px 4px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 002px -2px 13px 4px rgba(0, 0, 0, 0.35);
+  
+}
+.nav{
+    justify-content: end;
+} 
+.nav ul li a{
+    color: aliceblue !important;
+    text-transform: uppercase;
+    transition: 0.3 ease-out;
+    padding: 30px 0;
+}
+.nav ul li a:hover{
+    color: aliceblue !important;
+    transition: 0.3 ease-in;
+    background-color: #865DFF;
+
+}
+.nav-item{
+    color: aliceblue;
+}
+/* conteudo */
+ main .container{
+    margin-top: 260px;
+    margin-bottom: 260px;  
+    max-width: 1280px;
+} 
+.container .img{
+    padding: 30px 0 30px 0;
+    font-size: 20px;
+}
+.container h3{
+    color: aliceblue;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.container .text-p{
+    color: aliceblue;
+    padding: 10px 0;
+}
+
+.text-btn a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.text-btn{
+    padding: 5px 0;
+    width: 22%;
+    background-color: #5e1dad;
+    transition: 0.3 ease-out;
+}
+.text-btn:hover{
+    background-color: #331758;
+    transition: 0.3 ease-in;
+}
+/* rodape */
+.rodape{
+    height: 250px;
+    background-color: indigo;
+    margin-top: 100px;
+}
+.containerFooter{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.rowFooter{
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.containerFooter a{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 10px;
+}
+.containerFooter li{
+    list-style: none;
+    color:aliceblue;
+    font-size: 8px;
+}
+.text{
+    color: aliceblue;
+    font-size: 10px;
+}
+
+.center-align{
+    text-align: center!important;
+}
+.dev{
+    text-align: center;
+    color: aliceblue;
+    background-color: #331758;
+    width: 100%;
+    padding: 1vh;
+}
+
+@media screen and (max-width: 992px){ 
+    .nav{
+        justify-content: start;
+    }
+    .nav ul li a{
+        color: aliceblue;
+        text-transform: uppercase;   
+    }
+    .nav ul li a:hover{
+        transition: 0.3 ease-in;
+        background-color: #5e1dad;
+        color: #141414; 
+    }
+} 

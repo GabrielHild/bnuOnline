@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/curriculo.css">
+    <title>Taió Online |Enviar Currículo </title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navegacao">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="img/logo.site.png" alt="" width="100px"></a>
+                <div class="collapse navbar-collapse nav" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link item-nav" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link item-nav" href="emDesenvolvimento.html">empregos</a></li>
+                        <li class="nav-item"><a class="nav-link item-nav" href="emDesenvolvimento.html">classificação</a></li>
+                        <li class="nv-item"><a class="nav-link item-nav" href="curriculo.html">currículo</a></li>
+                        <li class="naav-item"><a class="nav-link item-nav" href="noticia.html">blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- Conteudo -->
+    <main>
+        <div class="container topo">
+            <form action="#" method="get" autocomplete="off">
+                <h3 style="text-align: center;" class="text-top">Cadastro de Currículo</h3>
+                
+                <div class="aviso">
+                    <div class="row">
+                        <div>
+                            <legend style="text-align: center;" class="text-aviso">Cadastro com e-mail inválido ou
+                                escrito em caixa alta será descartado. São permitidos apenas 3 anúncios por usuário.
+                            </legend>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="conteudo">
+                    <!-- linha 1 desktop -->
+                    <div class="row">
+                        <div class="col-md-6 sm-12">
+                            <label for="nome" class="nome-text">Nome Completo</label>
+                            <input type="text" id="nome" placeholder="nome:" required>
+                        </div>
+                        <div class="col-md-6 sm-12">
+                            <label for="cidade" class="cidade-text">Cidade</label>
+                            <input type="text" id="cidade" placeholder="Cidade" required>
+                        </div>
+                    </div>
+                    <!-- linha 2 desktop -->
+                    <div class="row">
+                        <div class="col-md-6 sm-12">
+                            <label for="email" class="email-text">Email</label>
+                            <input type="text" id="email" placeholder="Email Válido" required>
+                        </div>
+                        <div class="col-md-6 sm-12">
+                            <label for="qualificacao" class="qualificacao-text">Qualificações</label>
+                            <input type="text" id="qualificacao" placeholder="Suas Qualificações" required>
+                        </div>
+                    </div>
+                    <!-- linha 1 desktop -->
+                    <div class="row">
+                        <div class="col-md-6 sm-12">
+                            <label for="Formacao" class="Formacao-text">Formação</label>
+                            <input type="text" id="Formacao" placeholder="Sua Formação" required>
+                        </div>
+                        <div class="col-md-6 sm-12">
+                            <label for="Experiencia" class="Experiencia-text">Expêriencia</label>
+                            <input type="text" id="Experiencia" placeholder="Quais Suas Expêriencia" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 sm-12">
+                            <label for="Formacao" class="Formacao-text">Apresentação | Informações Complementares</label>
+                            <input type="text" id="Formacao" placeholder="Fale Sobre você">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                    <a href="curriculoEnviado.html" class="btn bton">Enviar currículo</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+
+
+    <!-- roda pe -->
+    <footer class="rodape">
+        <div class="containerFooter">
+            <div class="row rowFooter">
+                <div class="grid-col center-align text">
+                    <h3>Taió Online</h3>
+                    <p>Um portal de Oportunidades</p>
+                </div>
+                <div class="grid-col center-align text">
+                    <h3>Anuncie Conosco</h3>
+                    <a href="mailto:eu@tu.com">ggBriel@email.com</a>
+                </div>
+                <div class="grid-col center-align text">
+                    <h3>Veja Também:</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="emDesenvolvimento.html">Empregos</a></li>
+                        <li><a href="emDesenvolvimento.html">Classificados</a></li>
+                        <li><a href="curriculo.html">Currículos</a></li>
+                        <li><a href="noticia.html">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="dev">
+            <p>© 2023 Taió Online | Todos os direitos reservados. <br> Desenvolvido Por: Gabriel Hildebrandt Pereira.</p>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>>
+</body>
+
+</html>

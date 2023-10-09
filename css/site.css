@@ -1,0 +1,167 @@
+ body{
+    background-color: #1f252f;
+} 
+.navbar{
+    padding: 0;
+}
+.container-fluid{
+    background-color: #5e1dad;
+    padding: 0 30px;
+    box-shadow: 002px -2px 13px 4px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 002px -2px 13px 4px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 002px -2px 13px 4px rgba(0, 0, 0, 0.35);
+
+  
+}
+.nav{
+    justify-content: end;
+} 
+.nav ul li a{
+    color: aliceblue !important;
+    text-transform: uppercase;
+    transition: 0.3 ease-out;
+    padding: 30px 0;
+}
+.nav ul li a:hover{
+    color: aliceblue !important;
+    transition: 0.3 ease-in;
+    background-color: #865DFF;
+
+}
+.nav-item{
+    color: aliceblue;
+}
+
+/* conteudo */
+main .container1{
+    margin-top: 100px;
+    margin-bottom: 100px;  
+    max-width: 1280px;
+}
+.container2{
+    margin-bottom: 100px;  
+    max-width: 1280px;  
+    align-items: center;
+}
+.ultimas-noticias p{
+    height: 10vh;
+    text-align: center;
+} 
+.card{
+    background-color: #1e232c;
+    border-color: #191e25;
+
+}
+.card-text{
+    color: aliceblue;
+}
+.butn{
+    background-color: #1e232c;
+    display:inline-block;
+    padding: 8px 25px;
+    color: aliceblue !important;
+    text-align: center;
+    border: 1px solid #191e25;
+    border-radius: 0%;
+    transition: 0.3 ease-out;
+}
+.butn:hover{
+    transition: 0.3 ease-in;
+    background-color: #57449a;
+    border-radius: 4px;
+}
+.destaques{
+    background-color: #57449a;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 4px 8px;
+    color: aliceblue;
+    margin: 10px 0;
+
+}
+
+
+
+
+/* banner */
+.banner{
+    padding: 20px 20px;
+}
+.banner h2, h6, a{
+    color: aliceblue;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#bannerVer{
+    background-color: #41206d;
+    padding: 0.5vh;
+}
+#vaga{
+    background-color: #331758;
+    padding: 8vh;
+}
+#curriculo{
+    background-color: #331758;
+    padding: 8vh;
+}
+#classificacao{
+    background-color: #331758;
+    padding: 8vh;
+}
+
+/* rodape */
+.rodape{
+    height: 250px;
+    background-color: indigo;
+    margin-top: 100px;
+}
+.containerFooter{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.rowFooter{
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.containerFooter a{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 10px;
+}
+.containerFooter li{
+    list-style: none;
+    color:aliceblue;
+    font-size: 8px;
+}
+.text{
+    color: aliceblue;
+    font-size: 10px;
+}
+
+.center-align{
+    text-align: center!important;
+}
+.dev{
+    text-align: center;
+    color: aliceblue;
+    background-color: #331758;
+    width: 100%;
+    padding: 2vh;
+}
+
+@media screen and (max-width: 992px){ 
+    .nav{
+        justify-content: start;
+    }
+    .nav ul li a{
+        color: aliceblue;
+        text-transform: uppercase;   
+    }
+    .nav ul li a:hover{
+        transition: 0.3 ease-in;
+        background-color: #5e1dad;
+        color: #141414; 
+    }
+} 

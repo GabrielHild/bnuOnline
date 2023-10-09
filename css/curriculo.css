@@ -1,0 +1,283 @@
+body{
+    background-color: #1f252f;
+} 
+.navbar{
+    padding: 0;
+}
+.container-fluid{
+    background-color: #5e1dad;
+    padding: 0 30px;
+    box-shadow: 002px -2px 13px 4px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 002px -2px 13px 4px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 002px -2px 13px 4px rgba(0, 0, 0, 0.35);
+  
+}
+.nav{
+    justify-content: end;
+} 
+.nav ul li a{
+    color: aliceblue !important;
+    text-transform: uppercase;
+    transition: 0.3 ease-out;
+    padding: 30px 0;
+}
+.nav ul li a:hover{
+    color: aliceblue !important;
+    transition: 0.3 ease-in;
+    background-color: #865DFF;
+
+}
+.nav-item{
+    color: aliceblue;
+}
+
+/* conteudo */
+main .container{
+    margin-top: 100px;
+    margin-bottom: 100px;  
+    max-width: 1280px;
+}
+
+/* title cadastro */
+.text-top{
+    color: aliceblue;
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+.text-aviso{
+    padding: 4vh;
+    border-radius: 10px;
+    font-size: 17px;
+    color: aliceblue;
+    background-color: #1d232c;
+    margin: 0 0 30px 0;
+}
+hr{
+    color: #3f4b61;
+}
+
+
+/* curriculo */
+
+/* nome */
+#nome{
+    outline: none;
+    display: block;
+    width: 100%;
+    cursor: text;
+    border: none;
+    background-color: transparent ;
+    border-bottom: 1px solid aliceblue;
+    height: 5vh;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+    color: aliceblue;
+}
+#nome:hover{
+    border-bottom: 2px solid #5e1dad;
+}
+.nome-text{
+    color: aliceblue;
+} 
+#nome:focus{
+    border-bottom: 2px solid indigo;
+}     
+
+/* cidade */
+
+#cidade{
+    outline: none;
+    display: block;
+    width: 100%;
+    cursor: text;
+    border: none;
+    background-color: transparent ;
+    border-bottom: 1px solid aliceblue;
+    height: 5vh;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+    color: aliceblue;
+}
+#cidade:hover{
+    border-bottom: 2px solid #5e1dad;
+} 
+.cidade-text{
+    color: aliceblue;
+}
+#cidade:focus{
+    border-bottom: 2px solid indigo;
+}
+
+/* email */
+
+#email{
+    outline: none;
+    display: block;
+    width: 100%;
+    cursor: text;
+    border: none;
+    background-color: transparent ;
+    border-bottom: 1px solid aliceblue;
+    height: 5vh;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+    color: aliceblue;
+}
+#email:hover{
+    border-bottom: 2px solid #5e1dad;
+} 
+.email-text{
+    color: aliceblue;
+}
+#email:focus{
+    border-bottom: 2px solid indigo;
+}
+
+/* qualificação */
+
+#qualificacao{
+    outline: none;
+    display: block;
+    width: 100%;
+    cursor: text;
+    border: none;
+    background-color: transparent ;
+    border-bottom: 1px solid aliceblue;
+    height: 5vh;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+    color: aliceblue;
+}
+#qualificacao:hover{
+    border-bottom: 2px solid #5e1dad;
+} 
+.qualificacao-text{
+    color: aliceblue;
+}
+#qualificacao:focus{
+    border-bottom: 2px solid indigo;
+}
+
+/* formação*/
+
+#Formacao{
+    outline: none;
+    display: block;
+    width: 100%;
+    cursor: text;
+    border: none;
+    background-color: transparent ;
+    border-bottom: 1px solid aliceblue;
+    height: 5vh;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+    color: aliceblue;
+}
+#Formacao:hover{
+    border-bottom: 2px solid #5e1dad;
+} 
+.Formacao-text{
+    color: aliceblue;
+}
+#Formacao:focus{
+    border-bottom: 2px solid indigo;
+}
+
+
+/* Experiencia */
+
+
+#Experiencia{
+    outline: none;
+    display: block;
+    width: 100%;
+    cursor: text;
+    border: none;
+    background-color: transparent ;
+    border-bottom: 1px solid aliceblue;
+    height: 5vh;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+    color: aliceblue;
+}
+#Experiencia:hover{
+    border-bottom: 2px solid #5e1dad;
+} 
+.Experiencia-text{
+    color: aliceblue;
+}
+#FExperiencia:focus{
+    border-bottom: 2px solid indigo;
+}
+/* botao de enviar */
+.bton{
+    text-align: center;
+    background-color: #5e1dad;
+    text-transform: uppercase;
+    transition: 0.3 ease-out;
+    width: 100%;
+    text-decoration: none;
+    color: aliceblue; 
+}
+.btn:hover{
+    background-color: #582996;
+    transition: 0.3 ease-in;
+    color: aliceblue;
+}
+/* rodape */
+.rodape{
+    height: 250px;
+    background-color: indigo;
+    margin-top: 100px;
+}
+.containerFooter{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.rowFooter{
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.containerFooter a{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 10px;
+}
+.containerFooter li{
+    list-style: none;
+    color:aliceblue;
+    font-size: 8px;
+}
+.text{
+    color: aliceblue;
+    font-size: 10px;
+}
+
+.center-align{
+    text-align: center!important;
+}
+.dev{
+    text-align: center;
+    color: aliceblue;
+    background-color: #331758;
+    width: 100%;
+    padding: 2vh;
+}
+/* rtesponsividade pra navbar ir pra esquerda no mobile */
+@media screen and (max-width: 992px){ 
+    .nav{
+        justify-content: start;
+    }
+    .nav ul li a{
+        color: aliceblue;
+        text-transform: uppercase;   
+    }
+    .nav ul li a:hover{
+        transition: 0.3 ease-in;
+        background-color: #5e1dad;
+        color: #141414; 
+    }
+
+} 
