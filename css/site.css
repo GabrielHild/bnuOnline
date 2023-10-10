@@ -125,12 +125,12 @@ main .container1{
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
-.containerFooter a{
+.Footer a{
     text-decoration: none;
     color:aliceblue;
     font-size: 10px;
 }
-.containerFooter li{
+.Footer li{
     list-style: none;
     color:aliceblue;
     font-size: 8px;
@@ -164,4 +164,56 @@ main .container1{
         background-color: #5e1dad;
         color: #141414; 
     }
+    .Footer ul{
+        padding: 0;
+    }
+    h2,h6, p{
+        font-size: 13px;
+    }
+
 } 
+
+
+
+@media screen and (max-width: 300px){
+    /* fontes das noticias e banners */
+    h2,h6, p{
+        font-size: 13px;
+    }
+    /* outras alteracoes */
+    h3{
+        font-size: 10px !important;
+    }
+    .rowFooter{
+        padding-top: 5px;
+        display: grid;
+        grid-template-columns: 100%
+    }
+    .text{
+        color: aliceblue;
+        font-size: 9px;
+    }
+    .Footer a{
+        text-decoration: none;
+        color:aliceblue;
+        font-size: 9px;
+    }
+    .Footer li{
+        list-style: none;
+        color:aliceblue;
+        font-size: 4px;
+    }
+    .Footer ul{
+        padding: 0;
+    }
+
+    .dev{
+        text-align: center;
+        color: aliceblue;
+        background-color: #331758;
+        width: 100%;
+        padding: 1vh;
+        font-size: 10px;
+    }
+
+}

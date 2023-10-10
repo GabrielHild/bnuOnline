@@ -109,16 +109,17 @@ hr{
     margin: 0 auto;
 }
 .rowFooter{
+
     padding-top: 70px;
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
-.containerFooter a{
+.Footer a{
     text-decoration: none;
     color:aliceblue;
     font-size: 10px;
 }
-.containerFooter li{
+.Footer li{
     list-style: none;
     color:aliceblue;
     font-size: 8px;
@@ -158,4 +159,42 @@ hr{
     .block-link{
         padding-top: 20px;
     }
+    .Footer ul{
+        padding: 0;
+    }
 } 
+@media screen and (max-width: 300px){
+    h3{
+        font-size: 15px;
+    }
+    .rowFooter{
+        padding-top: 5px;
+        display: grid;
+        grid-template-columns: 100%
+    }
+    .text{
+        color: aliceblue;
+        font-size: 9px;
+    }
+    .Footer a{
+        text-decoration: none;
+        color:aliceblue;
+        font-size: 9px;
+    }
+    .Footer li{
+        list-style: none;
+        color:aliceblue;
+        font-size: 4px;
+    }
+    .Footer ul{
+        padding: 0;
+    }
+    .dev{
+        text-align: center;
+        color: aliceblue;
+        background-color: #331758;
+        width: 100%;
+        padding: 1vh;
+        font-size: 10px;
+    }
+}

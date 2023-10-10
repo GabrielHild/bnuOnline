@@ -81,12 +81,12 @@ body{
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
-.containerFooter a{
+.Footer a{
     text-decoration: none;
     color:aliceblue;
     font-size: 10px;
 }
-.containerFooter li{
+.Footer li{
     list-style: none;
     color:aliceblue;
     font-size: 8px;
@@ -120,4 +120,53 @@ body{
         background-color: #5e1dad;
         color: #141414; 
     }
+    .Footer ul{
+        padding: 0;
+    }
+    .text-btn{
+        padding: 5px 0;
+        width: 50%;
+    }
+    h3{
+        font-size: 15px !important;
+    }
 } 
+@media screen and (max-width: 300px){
+    h3{
+        font-size: 20px !important;
+    }
+    .rowFooter{
+        padding-top: 5px;
+        display: grid;
+        grid-template-columns: 100%
+    }
+    .text{
+        color: aliceblue;
+        font-size: 9px;
+    }
+    .Footer a{
+        text-decoration: none;
+        color:aliceblue;
+        font-size: 9px;
+    }
+    .Footer li{
+        list-style: none;
+        color:aliceblue;
+        font-size: 4px;
+    }
+    .Footer ul{
+        padding: 0;
+    }
+    .dev{
+        text-align: center;
+        color: aliceblue;
+        background-color: #331758;
+        width: 100%;
+        padding: 1vh;
+        font-size: 10px;
+    }
+    .text-btn{
+        padding: 5px 0;
+        width: 50%;
+    }
+}

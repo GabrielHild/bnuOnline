@@ -42,7 +42,7 @@ body{
 }
 .container h3{
     color: aliceblue;
-    font-size: 50px;
+    /* font-size: 50px; */
     text-transform: uppercase;
 }
 .container .text-p{
@@ -80,12 +80,12 @@ body{
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
-.containerFooter a{
+.Footer a{
     text-decoration: none;
     color:aliceblue;
     font-size: 10px;
 }
-.containerFooter li{
+.Footer li{
     list-style: none;
     color:aliceblue;
     font-size: 8px;
@@ -103,7 +103,7 @@ body{
     color: aliceblue;
     background-color: #331758;
     width: 100%;
-    padding: 1vh;
+    padding: 2vh;
 }
 
 @media screen and (max-width: 992px){ 
@@ -119,4 +119,53 @@ body{
         background-color: #5e1dad;
         color: #141414; 
     }
+    .Footer ul{
+        padding: 0;
+    }
+    .text-btn{
+        padding: 5px 0;
+        width: 40%;
+        background-color: #5e1dad;
+    }
 } 
+@media screen and (max-width: 300px){
+    h3{
+        font-size: 15px;
+    }
+    .rowFooter{
+        padding-top: 5px;
+        display: grid;
+        grid-template-columns: 100%
+    }
+    .text{
+        color: aliceblue;
+        font-size: 9px;
+    }
+    .Footer a{
+        text-decoration: none;
+        color:aliceblue;
+        font-size: 9px;
+    }
+    .Footer li{
+        list-style: none;
+        color:aliceblue;
+        font-size: 4px;
+    }
+    .Footer ul{
+        padding: 0;
+    }
+    .dev{
+        text-align: center;
+        color: aliceblue;
+        background-color: #331758;
+        width: 100%;
+        padding: 2vh;
+        font-size: 10px;
+
+    }
+    .text-btn{
+        padding: 5px 0;
+        width: 50%;
+        background-color: #5e1dad;
+    }
+}
